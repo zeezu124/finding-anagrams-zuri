@@ -10,3 +10,9 @@ def find_anagram(word, anagram):
         return True
     else:
         return False
+    
+    
+#some examples for the function
+print(find_anagram("hello", "check"))
+print(find_anagram("below", "elbow"))
+print(find_anagram("elbow", "bellowed"))
